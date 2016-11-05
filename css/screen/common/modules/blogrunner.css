@@ -1,0 +1,45 @@
+/*
+$Id: blogrunner.css 48912 2010-11-01 16:54:08Z joseph.williams $
+/css/0.1/screen/common/modules/blogrunner.css 
+(c)2006 - 2009 The New York Times Company */
+
+.relatedStories.abuzz .source {
+  color: #6CBC31;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.relatedStories.abuzz .sectionHeader {
+  line-height: 1.143em; /* 16px */
+  margin-bottom: 4px;
+}
+
+.relatedStories.abuzz h4,
+.relatedStories.abuzz .more { 
+  font-size: 1.1em;
+}
+
+.relatedStories.abuzz .source,
+.relatedStories.abuzz .date,
+.relatedStories.abuzz h4,
+.relatedStories.abuzz h6 {
+  font-family: arial, helvetica, sans-serif;
+}
+
+.relatedStories.abuzz h6 { 
+  font-size: 1em; /* 10px */
+  line-height: 1.2em; /* 12px */
+  margin-bottom: 8px;
+}
+
+.blogrunnerSummary {
+  font-family: arial,helvetica,sans-serif;
+  font-size: 1.1em;
+  color: #333333;
+}
+
+.relatedStories p.related {
+  font-size: 1em;
+}
+ 

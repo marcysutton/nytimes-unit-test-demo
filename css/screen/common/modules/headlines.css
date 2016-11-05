@@ -1,0 +1,43 @@
+/*$Id: headlines.css 58763 2011-02-18 21:56:32Z mturk $
+/css/0.1/screen/common/modules/headlines.css
+(c)2006 - 2008 The New York Times Company */ 
+
+.relatedStories .story .date, 
+.eventLocation {
+	font-size: 1em; /* 10px  */
+	color: #808080;
+	margin: 0;
+}
+
+.relatedStories .story.first {
+	clear: none;
+}
+
+.relatedStories .byline span {
+    text-transform: uppercase;
+}
+
+.relatedStories .byline span.timestamp {
+	text-transform: none;
+}
+
+.partnerHeadlines h3,
+.partnerHeadlines h5 {
+	font-family: arial,helvetica,sans-serif;
+}
+
+/* BEGIN legacy (deprecated) */
+.relatedStories .story .date,
+.relatedStories .external .story h4,
+.eventLocation{
+	font-family: arial, helvetica, sans-serif; 
+}
+
+.relatedStories .more {
+	font-size: 1.1em;	
+}
+
+.relatedStories .story h4 {
+	font-size: 1.2em; /* 12px */
+}
+/* END legacy (deprecated)*/

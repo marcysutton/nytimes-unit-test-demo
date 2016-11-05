@@ -1,0 +1,1011 @@
+/* $Id: sectionfront-body.css 151891 2015-08-10 18:54:01Z shawn.gao $
+/css/0.1/screen/common/nyt5/sectionfront-body.css
+(c)2006 - 2013 The New York Times Company */
+
+/* font stacks */
+
+.NYT5Style .byline,
+.NYT5Style .summary,
+.NYT5Style .bColumn .summary {
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.NYT5Style .commentIcon,
+.NYT5Style .kicker,
+.NYT5Style .timestamp,
+.NYT5Style .bColumn .kicker,
+.NYT5Style .bColumn .headlinesOnly li,
+.NYT5Style .bColumn .headlinesOnly h6,
+.NYT5Style .bColumn .date,
+.NYT5Style .bColumn .commentsRefer .commentCountLink a,
+.NYT5Style .columnGroup #mostPopWidget .tabs li,
+.NYT5Style .columnGroup .marketing-module-legacy:before,
+.NYT5Style .columnGroup .marketing-module-legacy h2,
+.NYT5Style .columnGroup .marketing-module-legacy .refer li > a,
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container ul.wsodtabs li,
+.NYT5Style .columnGroup #mostPopWidget a.more,
+.NYT5Style .columnGroup .sectionHeader,
+.NYT5Style .columnGroup .sectionHeader a {
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}
+
+.NYT5Style .aColumn .ledeStory h1,
+.NYT5Style .aColumn .ledeStory h1 .media,
+.NYT5Style .aColumn .ledeStory h2,
+.NYT5Style .aColumn .ledeStory h2 .media,
+.NYT5Style .aColumn .story h3,
+.NYT5Style .aColumn .storyFollowsLede h3,
+.NYT5Style .aColumn .story h3 .media,
+.NYT5Style .aColumn .storyFollowsLede h3 .media,
+.NYT5Style .aColumn .headlinesOnly a,
+.NYT5Style .aColumn .headlinesOnly a .media,
+.NYT5Style #spanABTopRegion .bColumn .ledeStory h2 {
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+}
+
+.NYT5Style .commentsRefer,
+.NYT5Style .bColumn .story h3,
+.NYT5Style .bColumn .story h5,
+.NYT5Style .bColumn .commentsRefer li a,
+.NYT5Style .cColumn .headlinesOnly li h6,
+.NYT5Style .columnGroup #mostPopWidget ol {
+  font-family: 'nyt-cheltenham-sh', georgia, "times new roman", times, serif;
+}
+
+.NYT5Style .credit,
+.NYT5Style .embeddedSlideshow .caption {
+  font-family: arial, helvetica, sans-serif;
+}
+
+.NYT5Style a {
+  color: #000;
+}
+.NYT5Style a:visited {
+  color: #999;
+}
+.NYT5Style #page {
+  border: 0;
+}
+.NYT5Style #main {
+  padding-bottom: 20px;
+}
+.NYT5Style .aColumn .story ul.refer li,
+.NYT5Style .bColumn .story ul.refer li,
+.NYT5Style .abColumn .story ul.refer li {
+  background-image: url(/images/icons/circle.png);
+  background-position: 0 6px;
+  background-repeat: no-repeat;
+  padding: 0 0 0 9px;
+}
+
+.NYT5Style .headlinesOnly h6 {
+  font-size: 15px;
+  line-height: 16px;
+}
+.NYT5Style .relatedStories .story .date,
+.NYT5Style .eventLocation {
+  margin-bottom: 3px;
+}
+.NYT5Style .columnGroup,
+.NYT5Style .singleRule,
+.NYT5Style .doubleRule,
+.NYT5Style .module {
+  margin-bottom: 0;
+}
+.NYT5Style .aColumn .singleRuleDivider:last-child {
+  display: none;
+}
+.NYT5Style .singleRuleDivider {
+  margin-bottom: 15px;
+  background-color: #E9E9E9;
+}
+.NYT5Style .aColumn .story,
+.NYT5Style .aColumn .ledeStory,
+.NYT5Style .aColumn .storyFollowsLede,
+.NYT5Style .aColumn .headlinesOnly {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 12px;
+  padding-top: 14px;
+  clear: both;
+}
+
+.NYT5Style .aColumn .columnGroup.first .ledeStory,
+.NYT5Style .aColumn .columnGroup:first-child.first .sectionHeader,
+.NYT5Style .aColumn .columnGroup.first > .story:first-child,
+.NYT5Style .aColumn .sectionHeader + .headlinesOnly,
+.NYT5Style .aColumn .doubleRule > .ledeStory:first-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Style separated because of IE8 bug */
+.NYT5Style .aColumn .columnGroup.first .story:nth-of-type(1) {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.NYT5Style .bColumn .story h5 {
+  margin-bottom: 4px;
+}
+
+.NYT5Style .wideThumb {
+  margin-bottom: 10px;
+}
+.NYT5Style .abColumn {
+  width: 622px;
+}
+.NYT5Style .wideA {
+  background-position: 406px;
+}
+.NYT5Style .wideB .aColumn {
+  width: 202px;
+}
+.NYT5Style .spanAB {
+  background: url(/images/layout/vertical_rule.gif) repeat-y 621px;
+}
+.NYT5Style .abColumn div.insetH,
+.NYT5Style .aColumn div.insetH,
+.NYT5Style .aColumn div.columnGroup,
+.NYT5Style .aColumn div.fullWidth .columnGroup,
+.NYT5Style .abColumn .aColumn .columnGroup,
+.NYT5Style .abColumn .aColumn div.fullWidth .columnGroup {
+  margin-left: 0;
+  margin-right: 0;
+}
+.NYT5Style .bColumn div.insetH,
+.NYT5Style .bColumn div.columnGroup,
+.NYT5Style .bColumn div.fullWidth .columnGroup,
+.NYT5Style .abColumn .bColumn .columnGroup,
+.NYT5Style .abColumn .bColumn div.fullWidth .columnGroup {
+  margin-left: 0;
+  margin-right: 0;
+}
+.NYT5Style .cColumn div.columnGroup,
+.NYT5Style .cColumn div.fullWidth .columnGroup {
+  margin-left: 0;
+  margin-right: 0;
+}
+.NYT5Style .cColumn div.insetH {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.NYT5Style .cColumn div.insetV {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.NYT5Style .byline {
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #808080;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+.NYT5Style .commentIcon {
+  background-image: url(/images/icons/commentbubble.png);
+  background-position: 0 35%;
+  color: #326891;
+  font-size: 11px;
+}
+.NYT5Style .commentsRefer {
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: -4px;
+}
+.NYT5Style .commentsRefer li {
+  margin: 0 0 2px 0;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+.NYT5Style .commentsRefer .commentLink {
+  margin-bottom: 8px;
+  padding-bottom: 0;
+}
+.NYT5Style .commentsRefer .commentCountLink {
+  margin-top: -7px;
+  margin-bottom: 0;
+}
+.NYT5Style .commentsRefer li > a {
+  font-weight: 700;
+}
+.NYT5Style .credit {
+  font-size: 0.9em;
+  line-height: 1.1em;
+  color: #999;
+  margin-bottom: 7px;
+}
+.NYT5Style .kicker {
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.NYT5Style .media {
+  text-transform: capitalize;
+}
+.NYT5Style .sectionHeader {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  margin-top: 14px;
+}
+.NYT5Style .sectionHeader a:visited {
+  color: #000;
+}
+.NYT5Style .summary {
+  color: #333333;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 7px;
+}
+.NYT5Style .timestamp {
+  color: #a81817;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: capitalize;
+  display: none;
+}
+.NYT5Style .aColumn .ledeStory .byline {
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.NYT5Style .aColumn .ledeStory h1,
+.NYT5Style .aColumn .ledeStory h1 .media,
+.NYT5Style .aColumn .ledeStory h2,
+.NYT5Style .aColumn .ledeStory h2 .media {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.NYT5Style .aColumn .ledeStory .summary {
+  font-size: 13px;
+  line-height: 18px;
+}
+.NYT5Style .aColumn .w190 ~ .storyHeader h1,
+.NYT5Style .aColumn .w190 ~ .storyHeader h1 .media,
+.NYT5Style .aColumn .w190 ~ .storyHeader h2,
+.NYT5Style .aColumn .w190 ~ .storyHeader h2 .media {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.NYT5Style .aColumn .w190 ~ .storyHeader .byline {
+  margin: 5px 0 -4px 0;
+}
+.NYT5Style .aColumn .story h3,
+.NYT5Style .aColumn .storyFollowsLede h3,
+.NYT5Style .aColumn .story h3 .media,
+.NYT5Style .aColumn .storyFollowsLede h3 .media {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.NYT5Style .aColumn .headlinesOnly a,
+.NYT5Style .aColumn .headlinesOnly a .media {
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.NYT5Style .aColumn ul.multiline li {
+  margin-bottom: 12px;
+}
+.NYT5Style .bColumn .kicker {
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+.NYT5Style .bColumn .story + .story {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 12px;
+  padding-top: 14px;
+}
+.NYT5Style .bColumn .relatedStories .story + .story {
+  border: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.NYT5Style .relatedStories .thumbnail {
+  width: 50px;
+  height: 50px;
+}
+
+.NYT5Style .bColumn .story h3,
+.NYT5Style .bColumn .story h5 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+
+.NYT5Style .bColumn .headlinesOnly li {
+  background-image: url(/images/icons/circle.png);
+  background-repeat: no-repeat;
+  background-position: 0 6px;
+}
+.NYT5Style .bColumn .headlinesOnly li,
+.NYT5Style .bColumn .headlinesOnly h6 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 0;
+  padding-left: 8px;
+  margin-left: 0;
+}
+.NYT5Style .bColumn ul.headlinesOnly li {
+  margin-bottom: 8px;
+}
+
+.NYT5Style .bColumn .headlinesOnly h6 {
+  padding-left: 0px;
+}
+
+.NYT5Style .opinionModule .story h2 {
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif !important;
+  font-weight: 600;
+  font-size: 18px !important;
+  line-height: 19px !important;
+}
+
+.NYT5Style .opinionModule .story .summary { margin-bottom: 0px !important; }
+
+.NYT5Style .bColumn .opinionModule ul.headlinesOnly li { margin-bottom: 5px; }
+
+.NYT5Style .bColumn .opinionModule ul.headlinesOnly h6 {
+  font-family: 'nyt-cheltenham-sh', georgia, "times new roman", times, serif;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.NYT5Style .bColumn ul.multiline p {
+  margin-bottom: 8px;
+}
+.NYT5Style .bColumn .summary {
+  font-size: 12px;
+  line-height: 15px;
+  color: #4d4d4d;
+}
+.NYT5Style .bColumn .date {
+  line-height: 10px;
+  color: #999;
+  text-transform: uppercase;
+  padding: 0;
+}
+.NYT5Style .bColumn .commentsRefer li a {
+  font-size: 11px;
+  line-height: 13px;
+  padding-left: 0;
+}
+
+.NYT5Style .bColumn .commentsRefer .commentCountLink a {
+  padding-left: 10px;
+}
+.NYT5Style .bColumn .thumbnail a img {
+  width: 50px !important;
+  height: 50px !important;
+}
+.NYT5Style .cColumn .headlinesOnly li h6 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+.NYT5Style .story .mediaOverlay {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #4c4c4c;
+  background-color: black;
+  background-image: url(/images/icons/playheads.png);
+  padding: 0;
+  margin-top: -42px;
+  top: -10px;
+  left: 10px;
+  position: relative;
+  color: #ffffff;
+  font-size: 0;
+  background-position: -298px -26px;
+  -webkit-transition: all 0.15s ease-in;
+  transition-timing-function: all 0.15s ease-in;
+}
+.NYT5Style .story a:hover .mediaOverlay {
+  opacity: 1;
+  -webkit-transition: all 0.15s ease-in;
+  transition-timing-function: all 0.15s ease-in;
+}
+.NYT5Style .story .mediaOverlay.slideshow,
+.NYT5Style .story .mediaOverlay.photo {
+  background-position: 2px -26px;
+}
+.NYT5Style .story .mediaOverlay.video {
+  background-position: -148px -25px;
+}
+.NYT5Style .abColumn {
+  width: 621px;
+}
+.NYT5Style .wideA .aColumn {
+  margin: 0;
+  padding-right: 12px;
+  width: 395px;
+}
+.NYT5Style .wideA .bColumn {
+  width: 190px;
+  padding: 0 12px;
+}
+.NYT5Style .cColumn {
+  width: 336px;
+  padding: 0 0 0 12px;
+}
+.NYT5Style .cColumn .columnGroup {
+  margin-bottom: 10px;
+}
+
+.NYT5Style .aColumn .columnGroup .sectionHeader {
+  margin-top: 12px;
+  border-top: 1px solid #f2f2f2;
+  padding-top: 6px;
+}
+
+.NYT5Style .columnGroup .sectionHeader {
+  margin-bottom: 15px !important;
+}
+
+.NYT5Style .columnGroup .sectionHeader,
+.NYT5Style .columnGroup .sectionHeader a {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 0;
+}
+.NYT5Style #shell {
+  width: 970px;
+}
+.NYT5Style #TopAd,
+.NYT5Style #SFPushDown {
+  margin: 0;
+  padding: 11px 0 7px 0;
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+}
+.NYT5Style body {
+  padding: 0 7px;
+}
+
+.NYT5Style .embeddedSlideshow ul.stepperNumbers li a {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  width: 8px;
+  height: 8px;
+  font-size: 0;
+  background-color: #e5e5e5;
+  display: block;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.NYT5Style .embeddedSlideshow ul.stepperNumbers li {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 3px;
+  border: none;
+}
+
+.NYT5Style .embeddedSlideshow ul.stepperNumbers li:hover {
+  cursor: pointer;
+}
+
+.NYT5Style .embeddedSlideshow ul.stepperNumbers li.selected a {
+  background-color: #0c6397;
+  font-size: 0;
+  padding: 0;
+  border: none;
+}
+.NYT5Style .embeddedSlideshow .nextcontainer .nextArrow[style],
+.NYT5Style .embeddedSlideshow .prevcontainer .prevArrow[style] {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  top: 40px !important;
+  opacity: 0.85;
+}
+.NYT5Style .embeddedSlideshow .nextcontainer .nextArrow[style] {
+  background-image:url(/images/icons/arrow-right-18x24-326891.png);
+  -moz-border-radius: 5px 0px 0px 5px;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px;
+  left: 34px;
+  background-position: 17px 13px;
+}
+.NYT5Style .embeddedSlideshow .prevcontainer .prevArrow[style] {
+  background-image: url(/images/icons/arrow-left-18x24-326891.png);
+  -moz-border-radius: 0px 5px 5px 0px;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  left: 0 !important;
+  background-position: 15px 13px;
+}
+.NYT5Style .embeddedSlideshow a.stepperButton {
+  display: none;
+}
+.NYT5Style .embeddedSlideshow .credit {
+  margin-bottom: 5px;
+}
+.NYT5Style .embeddedSlideshow .caption {
+  color: #808080;
+  display: block;
+  font-size: 11px;
+  line-height: 15px;
+}
+.NYT5Style .embeddedSlideshow .stepperContainer {
+  margin-bottom: 7px;
+}
+.NYT5Style .singleRule {
+  border: none;
+  padding-top: 0;
+}
+
+.NYT5Style .aColumn .doubleRule {
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.NYT5Style .aColumn .doubleRuleDivider {
+  margin-top: 25px;
+  padding-top: 0;
+}
+
+.NYT5Style .aColumn .singleRule,
+.NYT5Style .aColumn .singleRuleDivider {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.NYT5Style .aColumn .doubleRule,
+.NYT5Style .aColumn .doubleRuleDivider {
+  background-image: url(/images/layout/dbl-rule.png) !important;
+  background-repeat: repeat-x;
+}
+
+.NYT5Style .aColumn .columnGroup .doubleRuleDivider + .story, 
+.NYT5Style .aColumn .columnGroup .doubleRuleDivider + .ledeStory {
+  border-top: 0;
+  margin-top: 14px;
+}
+
+.NYT5Style .aColumn .doubleRuleDivider {
+  margin-bottom: -14px; /* used to make the double rule cover the next single rule */
+}
+
+.NYT5Style .aColumn .headlinesOnly > .doubleRuleDivider:first-child {
+  margin-bottom: 7px;
+  margin-top: -17px;
+}
+
+.NYT5Style .aColumn .doubleRule .sectionHeader,
+.NYT5Style .aColumn .doubleRuleDivider .sectionHeader {
+  margin-top: -15px;
+  border: none;
+  padding-top: 0;
+}
+
+.NYT5Style .aColumn .singleRule .singleRuleDivider {
+  background-color: white;
+}
+
+.NYT5Style .aColumn .singleRuleDivider .headlinesOnly,
+.NYT5Style .aColumn .sectionHeader + .story,
+.NYT5Style .aColumn .singleRule .first,
+.NYT5Style .aColumn .sectionHeader + .ledeStory {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.NYT5Style .aColumn .singleRuleDivider {
+  background-color: white;
+}
+
+.NYT5Style .bColumn .doubleRule,
+.NYT5Style .bColumn .doubleRuleDivider {
+  background-image: url(/images/layout/dbl-rule.png) !important;
+  margin-top: 20px !important;
+  padding-top: 10px !important;
+  background-repeat: repeat-x !important;
+}
+
+.NYT5Style #adxSponLink_googleAds:before {
+  background-image: url(/images/layout/dbl-rule.png);
+  background-repeat: repeat-x; 
+  content: '';
+  width: 143%;
+  height: 4px;
+  background-color:  green;
+  display: block;
+  bottom: 17px;
+  margin-top: -14px;
+}
+
+.NYT5Style  #adxSponLink_googleAds {
+  margin-top: 20px;
+}
+
+.NYT5Style .bColumn .columnGroup.first > .columnGroup.first.doubleRule {
+  background: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.NYT5Style .bColumn .columnGroup.singleRule {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 9px;
+  padding-top: 10px;
+}
+.NYT5Style .overlayContainer {
+  background-image: none;
+}
+.NYT5Style .columnGroup #mostPopWidget a.more {
+  font-size: 11px;
+  line-height: 14px;
+  color: #326891;
+  font-weight: 500;
+  margin-left: -7px;
+}
+.NYT5Style #mostPopWidget {
+  margin-bottom: 30px;
+}
+.NYT5Style .columnGroup #mostPopWidget h4,
+.NYT5Style #SFHalf,
+.NYT5Style #SFFranchise {
+  display: none;
+}
+.NYT5Style .columnGroup #mostPopWidget .tabs {
+  background-image: url(/images/layout/dbl-rule.png);
+  background-repeat: repeat-x;
+  background-position-y: 4px;
+  height: 28px;
+}
+.NYT5Style .columnGroup #mostPopWidget .tabs li {
+  background: none;
+  border: 0;
+  font-size: 11px;
+  height: 30px;
+  left: 5px;
+  margin-top: 6px;
+  padding: 5px 10px;
+  position: relative;
+  line-height: 11px;
+}
+.NYT5Style .columnGroup #mostPopWidget .tabs li a {
+  display: block;
+  text-decoration: none;
+  color: #999 !important;
+}
+.NYT5Style .columnGroup #mostPopWidget .tabs li a:hover {
+  border-bottom: 1px solid #ccc;
+}
+.NYT5Style .columnGroup #mostPopWidget .tabs li a:before {
+  content: "MOST";
+  display: inline-block;
+  margin-right: 4px;
+}
+.NYT5Style .columnGroup #mostPopWidget .tabs li.selected {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin: 0;
+  padding-top: 8px;
+  background: white;
+}
+
+.NYT5Style .ticketNetworkModule,
+.NYT5Style .eventsCalendarModule,
+.NYT5Style  #mostPopWidget ~ .columnGroup {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -7px;
+}
+
+.NYT5Style .columnGroup #mostPopWidget .tabs li.selected a {
+  color: #000 !important;
+}
+.NYT5Style .columnGroup #mostPopWidget .tabs li.selected a:hover {
+  border-bottom: 1px solid black;
+}
+.NYT5Style .columnGroup #mostPopWidget .tabContent {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.NYT5Style .columnGroup #mostPopWidget ol {;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 5px 0;
+  margin-left: 18px;
+  margin-bottom: 0;
+}
+.NYT5Style .columnGroup #mostPopWidget ol li {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  color: #333333;
+}
+.NYT5Style .columnGroup #mostPopWidget  ol li a {
+  font-weight: 400;
+}
+.NYT5Style .columnGroup .marketing-module-legacy {
+  position: relative;
+  width: 300px !important;
+  color: #326891 !important;
+  border: none !important;
+}
+.NYT5Style .columnGroup .marketing-module-legacy:before {
+  width: 300px;
+  content: "ELSEWHERE ON NYTIMES.COM";
+  display: block;
+  color: #666666;
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: -3px;
+  margin-bottom: 8px;
+}
+.NYT5Style .columnGroup .marketing-module-legacy div {
+  padding: 0 !important;
+}
+.NYT5Style .columnGroup .marketing-module-legacy h2 {
+  font-size: 15px !important;
+  font-size: 0.9375rem !important;
+  line-height: 18px !important;
+  line-height: 1.125rem !important;
+  font-weight: 700 !important;
+  padding: 5px 0 !important;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif !important;
+}
+.NYT5Style .columnGroup .marketing-module-legacy a {
+  color: #326891 !important;
+}
+.NYT5Style .columnGroup .marketing-module-legacy p {
+  display: none;
+}
+.NYT5Style .columnGroup .marketing-module-legacy ul {
+  border: none !important;
+  color: #999;
+}
+.NYT5Style .columnGroup .marketing-module-legacy .refer li > a {
+  font-size: 13px !important;
+  font-size: 0.8125rem !important;
+  line-height: 17px !important;
+  line-height: 1.0625rem !important;
+  font-weight: 300 !important;
+  position: relative;
+  color: #326891 !important;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif !important;
+}
+.NYT5Style .columnGroup .marketing-module-legacy .refer li {
+  background-image: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 9px;
+}
+.NYT5Style .columnGroup .marketing-module-legacy li:before {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  position: relative;
+  content: "";
+  top: 10px;
+  left: -7px;
+  background-color: #999;
+  height: 3px;
+  width: 3px;
+}
+.NYT5Style .columnGroup .marketing-module-legacy .footer {
+  display: none;
+}
+
+.NYT5Style .columnGroup #wsodMarketsNavigation #wsod-nav-container {
+  margin-bottom: 10px;
+}
+.NYT5Style .columnGroup #wsodMarketsNavigation #wsod-nav-container h3 {
+  display: none;
+}
+.NYT5Style .columnGroup #wsodMarketsNavigation #wsod-nav-container td {
+  border-right: 0;
+}
+.NYT5Style .columnGroup #wsodHeader {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.NYT5Style .columnGroup #wsodMarkets .box {
+  padding-top: 25px;
+  border: 0;
+}
+.NYT5Style .columnGroup #wsodMarkets .box #wsodForm {
+  width: 325px;
+}
+.NYT5Style .columnGroup #wsodMarkets .box #wsodForm #qsearchQuery,
+.NYT5Style .columnGroup #wsodMarkets .box #wsodForm #textIn,
+.NYT5Style .columnGroup #wsodMarkets .box #wsodForm #hsearchQuery {
+  width: 255px;
+  height: 12px;
+  padding: 5px 5px 5px 5px;
+  -webkit-box-shadow: inset 2px 3px 3px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: inset 2px 3px 3px rgba(0, 0, 0, 0.07);
+  box-shadow: inset 2px 3px 3px rgba(0, 0, 0, 0.07);
+}
+.NYT5Style .columnGroup #wsodMarkets .box #wsodForm #searchSubmit {
+  width: 0px;
+  height: 0px;
+  padding: 13px 20px;
+  background-image: url(/images/icons/go_business_btn.png);
+  background-repeat:no-repeat;
+  margin-left: 11px;
+
+}
+.NYT5Style .columnGroup #wsodMarkets .box .myPortfoliosBox {
+  display: none;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container {
+ border-left: 0;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container #wsod-business {
+  border-left: 0;
+  border-right: 0;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container #wsodtabs-container {
+  border-left: 0;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container ul.wsodtabs {
+  background-image: url(/images/layout/dbl-rule.png) !important;
+  background-repeat: repeat-x;
+  padding-top: 4px;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container ul.wsodtabs li {
+  background: white;
+  border: 0 solid #ccc;
+  padding-top: 4px;
+  font-size: 10px;
+  padding: 4px;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container ul.wsodtabs li a {
+  color: #999;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container ul.wsodtabs li#USTab {
+  margin-left: 3px;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container ul.wsodtabs li.selected {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 10px 10px 5px 10px;
+  margin-top: -7px;
+}
+.NYT5Style .columnGroup #wsodMarkets #wsodMarketsChart #wsod-container ul.wsodtabs li.selected a {
+  color: #333;
+}
+.NYT5Style .columnGroup #eventsCalendarModule {
+  margin-bottom: 15px;
+}
+
+.NYT5Style .pageFooter {
+  border-top: 1px solid #e3e3e3;
+}
+
+.NYT5Style .pageFooter .inset {
+  margin: 8px 0 13px 7px;
+}
+
+.NYT5Style .pageFooterNavList a,
+.NYT5Style .pageFooterNavList a:link,
+.NYT5Style .pageFooterNavList a:visited {
+  color: #666;
+}
+
+.NYT5Style .pageFooterNavList li {
+  border-left: 1px solid #cbcbcb;
+  padding: 0 7px;
+}
+
+.NYT5Style .pageFooterNavList li:first-child {
+  border-left: 1px solid #cbcbcb;
+  padding-left: 0;
+}
+
+.NYT5Style .pageFooterNavList li:first-child {
+  border-left: 0;
+}
+
+.NYT5Style #subNav_events  {
+  padding-right: 10px;
+}
+
+.NYT5Style .runaroundRight {
+  margin: 0 0 10px 10px;
+}
+
+.NYT5Style .thumbnail {
+  margin: 0 0 10px 10px;
+}
+
+.NYT5Style .audio {
+  background-image:url(/images/icons/multimedia/icon-media-audio-12x12-000.png);
+}
+
+.NYT5Style .graphic {
+  background-image:url(/images/icons/multimedia/icon-media-graphic-12x12-000.png);
+}
+
+.NYT5Style .interactive {
+  background-image:url(/images/icons/multimedia/icon-media-interactive-12x12-000.png);
+}
+
+.NYT5Style .photo {
+  background-image:url(/images/icons/multimedia/icon-media-photo-12x12-000.png);
+}
+
+.NYT5Style .trailer {
+  background-image:url(/images/icons/multimedia/icon-media-trailer-12x12-000.png);
+}
+
+.NYT5Style .slideshow {
+  background-image:url(/images/icons/multimedia/icon-media-slideshow-12x12-000.png);
+  padding-top: 2px;
+}
+
+.NYT5Style .map {
+  background-image:url(/images/icons/multimedia/icon-media-map-12x12-000.png);
+}
+
+.NYT5Style .video {
+  background-image:url(/images/icons/multimedia/icon-media-video-12x12-000.png);
+}
+
+.NYT5Style .document {
+  background-image:url(/images/icons/multimedia/icon-media-document-12x12-000.png);
+}
+
+.NYT5Style .op-art {
+  background-image:url(/images/icons/multimedia/icon-media-opart-12x12-000.png);
+}
+
+.NYT5Style .wideA .aColumn .nythpHeaderWrapper {
+  margin-bottom: 7px;
+}
+
+.NYT5Style .subNavigation .lastColumn {
+     width: 90%;
+}
+
+.NYT5Style .extendedVideoPlayerModule {
+  background-image: url(/images/layout/dbl-rule.png);
+  margin-top: 20px;
+  padding-top: 10px;
+  background-repeat: repeat-x;
+}
+
+.NYT5Style .commentsRefer li .pipe {
+  color: #ccc;
+  margin: 0 5px;
+}

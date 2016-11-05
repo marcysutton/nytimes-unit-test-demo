@@ -1,0 +1,113 @@
+/* $Id: user-name-modal.css 140919 2014-03-20 22:08:21Z gregg.meluski $
+/css/0.1/screen/common/nyt5/user-name-modal.css
+(c)2006 - 2014 The New York Times Company */
+
+.NYT5Style .user-name-modal .modal-heading {
+  color: #666666;
+  display: table;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 15px;
+  line-height: 0.9375rem;
+  margin: 9px 14px 5px 14px;
+}
+
+.NYT5Style .user-name-modal a { 
+  font-weight: normal;
+}
+
+.NYT5Style .user-name-modal .avatar, 
+.NYT5Style .user-name-modal .user-name-subscription {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.NYT5Style .user-name-modal .avatar {
+  padding-right: 11px;
+  padding-top: 3px;
+}
+
+.NYT5Style .user-name-modal .avatar img {
+  width: 34px;
+}
+
+.NYT5Style .user-name-modal .user-name {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.NYT5Style .user-name-modal .user-subscription { 
+  display: block;
+  position: relative;
+}
+
+.NYT5Style .user-name-modal .premier-subscriber a,
+.NYT5Style .user-name-modal .premier-subscriber a:visited {
+  color: #c5a257;
+}
+
+.NYT5Style .user-name-modal .modal-content {
+  border-top: 1px solid #e2e2e2; 
+  padding: 18px 14px 18px;
+}
+
+.NYT5Style .user-name-modal .modal-content ul {
+  margin: 0;
+}
+
+.NYT5Style .user-name-modal .modal-content ul li {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 15px;
+  line-height: 0.9375rem;
+  font-weight: 400;
+  margin-top: 18px;
+  text-decoration: none;
+}
+
+.NYT5Style .user-name-modal .modal-content ul li:first-child {
+  margin-top: 0;
+}
+
+.NYT5Style .user-name-modal .modal-content a {
+  display: block;
+  color: #326891;
+}
+
+.NYT5Style .user-name-modal .modal-content a:hover {
+  text-decoration: underline;
+}
+
+.NYT5Style .user-name-modal .modal-content a:visited {
+  color: #326891;
+}
+
+.NYT5Style .user-name-modal .modal-content .log-out-button {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 15px;
+  line-height: 0.9375rem;
+  font-weight: 400;
+  color: #000000;
+  background: #f3f3f3;
+  text-transform: none;
+  padding: 8px 9px;
+}
+
+.NYT5Style .user-name-modal .modal-content .log-out-button:hover {
+  border: 1px solid #cccccc;
+  background: #ebebeb;
+}
+
+.NYT5Style .user-name-modal .modal-content .log-out-button,
+.NYT5Style .user-name-modal .modal-content .log-out-button:hover,
+.NYT5Style .user-name-modal .modal-content .log-out-button:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.NYT5Style .user-name-modal .dot-logo-icon {
+  bottom: 3px;
+}
+

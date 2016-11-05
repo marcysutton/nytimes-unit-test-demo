@@ -1,0 +1,40 @@
+/* 
+$Id: bitsPromos.css 98193 2012-04-30 08:17:18Z padmini_c01 $
+/css/0.1/screen/section/technology/modules/bitsPromos.css
+(c)2006 - 2011 The New York Times Company  */
+   
+/* Start styles for Bits PCM's */
+
+.relatedStories .kicker {
+  color: #808285;
+}
+ 
+.aroundWeb a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bitsPosts .summary {
+  margin-top: 4px;
+}
+
+.aroundWeb .story {
+  margin-bottom: 4px;
+}
+
+.aroundWeb .last {
+  margin-bottom: -2px;
+}
+
+.aroundWeb .sectionHeader {
+  margin-bottom: 5px;
+}
+
+.aroundWeb .kicker {
+  margin-bottom: 1px;  
+}
+
+.aroundWeb .kicker {
+  line-height: 1.2em;	/* 12px */
+}
+  
+/* End styles for Bits PCM's */

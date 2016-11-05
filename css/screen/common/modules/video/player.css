@@ -1,0 +1,724 @@
+/* $Id: player.css 142641 2014-05-05 20:53:44Z said.ketchman $
+/css/0.1/screen/common/modules/video/player.css
+(c)2006 - 2012 The New York Times Company */
+
+.videoplayerModule {
+  width: 336px;
+}
+
+.videoplayerModuleHeader .inset {
+  margin: 0 11px 9px 10px;
+}
+
+.videoplayerModuleV2 .videoplayerModuleHeader .inset {
+  margin: 0 0 9px;
+}
+
+.videoplayerModuleHeader .sectionHeaderHome {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.videoplayerModuleHeader .refer {
+  margin: 0;
+}
+
+.videoplayerModuleHeader .refer li {
+  font-size: 1em;
+  margin: 0;
+  padding: 0 3px;
+}
+
+.videoplayerModuleHeader .refer .firstItem {
+  border-right: 1px solid #004276;
+  padding-right: 5px;
+}
+
+.videoplayerModuleV2 .videoplayerModuleHeader .refer .firstItem {
+  border-right: 0;
+  padding-right: 0;
+}
+
+.videoplayerModuleHeader .refer .lastItem {
+  padding-right: 0;
+}
+
+.videoplayerModule .videoplayerContainer .box {
+  border-color: #dcdcdc;
+}
+
+.videoplayerModule .container {
+  height: 362px;
+}
+
+.videoplayerModuleV2 .container {
+  height: 384px;
+}
+
+.videoplayerModule .videoplayerContainer .inset {
+  margin: 11px;
+}
+
+.videoplayerModuleV2 .videoContainer {
+  width: 312px;
+  height: 176px;
+  background-color: #000;
+}
+
+.videoplayerModule .videoMeta .box {
+  border-color: #aaa;
+  border-top: 0;
+  margin-bottom: 4px;
+}
+
+.videoplayerModuleV2 .videoMeta .box {
+  border-top: 1px solid #aaa;
+  margin-top: 3px;
+}
+
+.videoplayerModule .videoMeta .inset {
+  height: 50px;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.videoplayerModuleV2 .videoMeta .inset {
+  height: 95px;
+}
+
+.videoplayerModule .videoMeta h6 {
+  display: inline;
+}
+
+.videoplayerModule .videoMeta h5 {
+  color: #004276;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.1em;
+}
+
+.videoplayerModule .playing .videoNowPlayingNotice {
+  display: inline;
+}
+
+.videoplayerModule .videoNowPlayingNotice {
+  display: none;
+  font-family: arial, helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.videoplayerModule .videoMeta .shareButton {
+  background: url(/images/video/share_icon.gif) no-repeat scroll left center transparent;
+  color: #999;
+  font-family: arial, helvetica, sans-serif;
+  padding-left: 15px;
+  position: absolute;
+  right: 5px;
+  text-transform: uppercase;
+  top: 3px;
+}
+
+.videoplayerModule .videoMeta .box {
+  height: 60px;
+}
+
+.videoplayerModuleV2 .videoMeta .box {
+  height: 105px;
+}
+
+.videoplayerModule .infoOverlay {
+  background-color: #fff;
+  border-top: 1px solid #aaa;
+  bottom: 0;
+  display: none;
+  height: 98px;
+  padding: 5px;
+  position: absolute;
+  width: 300px;
+  z-index: 100;
+}
+
+.videoplayerModule .infoOverlay p {
+  line-height: 1.3em;  /* fixes a weird firefox display bug */
+}
+
+.videoplayerModule .videoThumb {
+  cursor: pointer;
+  float: left;
+  height: 50px;
+  margin-right: 4px;
+  width: 75px;
+}
+
+.videoplayerModule .videoThumb.lastItem {
+  margin-right: 0;
+}
+
+.videoplayerModule .videoThumbOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 73px;
+  height: 48px;
+  border: 1px solid #ccc;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.videoplayerModule .videoplayerMenu .kicker,
+.videoplayerModule .videoplayerMenu .videoThumbPlayOverlay {
+  color: #fff;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.videoplayerModule .videoplayerMenu .kicker {
+  bottom: 0;
+  padding-right: 4px;
+  text-align: right;
+  width: 70px;
+}
+
+.videoplayerModuleV2 .videoplayerMenu .kicker {
+  padding-right: 0;
+  text-align: center;
+  width: 75px;
+}
+
+.videoplayerModuleV2 .videoplayerMenu .section {
+  font-size: 0.9em;
+  line-height: 1.6em;
+}
+
+.videoplayerModule .videoplayerMenu .videoThumbPlayOverlay {
+  background: url(/images/video/bc_playOverlay.png) no-repeat 0 0;
+  bottom: 1px;
+  display: none;
+  left: 0;
+  overflow: hidden;
+  text-indent: 999px;
+  width: 75px;
+}
+      
+.videoplayerModule .videoThumbPointerIcon {
+  background: url(/images/video/bc_pointer.png) no-repeat 0 0;
+  display: none;
+  position: absolute;
+  height: 12px;
+  left: 25px;
+  overflow: hidden;
+  top: -5px;
+  width: 25px;
+  z-index: 100;
+}
+
+.videoplayerModule .selected .videoThumbOverlay {
+  border: solid 2px #000;
+  width: 71px;
+  height: 46px;
+  background-color: transparent;
+}
+
+.videoplayerModule .selected .videoThumbPlayOverlay,
+.videoplayerModule .selected .videoThumbPointerIcon {
+  display: block;
+}
+
+.videoplayerModule .selected .section,
+.videoplayerModule .playing .videoThumbPlayOverlay,
+.videoplayerModule .playing .videoThumbPointerIcon {
+  display: none;
+}
+
+.videoplayerModule .screenCover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  height: 174px;
+  position: absolute;
+  width: 310px;
+}
+
+.videoplayerModuleV2 .screenCover {
+  z-index: 100;
+}
+
+.videoplayerModule .screenCoverHeading {
+  border-bottom: 1px solid #000;
+  font-size: 2em;
+  margin: 30px 0 15px 15px;
+  width: 100px;
+}
+
+.videoplayerModule .screenCover .branding {
+  margin: 0 0 20px 15px;
+}
+
+.videoplayerModule .screenCover p {
+  margin-left: 15px;
+}
+
+.videoplayerModuleV2 .videoShareToolsContainer {
+  height: 18px;
+  padding-top: 4px;
+  overflow: hidden;
+}
+
+.videoplayerModule .videoShare {
+  background-color: #fff;
+  height: 362px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 334px;
+}
+
+.videoplayerModuleV2 .videoShare {
+  background: none;
+  position: static;
+  height: auto;
+  width: auto;
+  top: auto;
+  left: auto;
+}
+
+.videoplayerModule .videoShare .inset {
+  margin: 10px;
+}
+
+.videoplayerModule .videoShare h3 {
+  font-family: arial, helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.videoplayerModule .videoShare .story img {
+  float: left;
+}
+
+.videoplayerModule .videoShare .story span {
+  color: #000;
+  float: left;
+  font-size: 1.5em;
+  margin-left: 10px;
+  width: 228px;
+}
+
+.videoplayerModule .videoShare .toolsList li {
+  background: none repeat scroll 0 0 transparent;
+  padding: 0;
+}
+
+.videoplayerModule .videoShare .toolsList .timespeople {
+  border: 1px solid #e2e2e2;
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px;
+}
+
+.videoplayerModule .videoShare .toolsList .timespeople li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.videoplayerModule .videoShare .toolsList .timespeople li a {
+  color: #000;
+  cursor: pointer;
+  font-size: 0.834em; /* 10 px (overriding 12px) */
+  text-transform: uppercase;
+}
+
+.videoplayerModule .videoShare .toolsList .embeds {
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+}
+
+.videoplayerModule .videoShare .toolsList .embeds label {
+  font-size: 1em;
+  line-height: 1em;
+  margin: 17px 0 11px 0;
+  text-transform: uppercase;
+}
+
+.videoplayerModule .videoShare .toolsList .embeds input {
+  color: #939393;
+  padding: 0;
+  width: 308px;
+}
+
+.videoplayerModule .videoShare .shareList li {
+  float: left;
+  margin-top: 8px;
+  width: 104px;
+}
+
+.videoplayerModule .videoShare .shareList a {
+  background-repeat: no-repeat;
+  color: #333;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10px;
+  padding: 2px 0 3px 20px;
+  text-transform: uppercase;
+}
+
+.videoplayerModule .videoShare .closeButton {
+  background: url("/images/video/close_window_grey.gif") no-repeat scroll right center transparent;
+  color: #999;
+  font-family: arial, helvetica, sans-serif;
+  outline: medium none;
+  padding-right: 15px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+}
+
+/* Override share icon layout */
+.videoplayerModuleV2 .videoShare span {
+  text-indent: -999px;
+  height: 16px;
+  width: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  text-indent: -999px;
+}
+
+.videoplayerModuleV2 .videoShare .shareToolsList {
+  text-align: right;
+}
+.videoplayerModuleV2 .videoShare .shareToolsItem {
+  display: inline-block;
+  float: none;
+  padding: 0 4px;
+}
+
+.videoplayerModuleV2 .videoShare .shareToolsItem.firstItem {
+  padding-left: 0;
+}
+
+.videoplayerModuleV2 .videoShare .shareToolsItem.lastItem {
+  padding-right: 0
+  ;
+}
+
+.videoplayerModuleV2 .shareToolsThemeClassic .shareToolsItemShowall a, 
+.videoplayerModuleV2 .shareToolsThemeClassic .shareToolsItemShowall span {
+  background: url(/images/icons/sharetools/classic/share-all-static.gif);
+}
+
+.videoplayerModule object,
+.videoplayerModule embed {
+  outline: 0;
+}
+
+/* container div for adnotice for positioning block */
+.videoplayerModule .adnoticewrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+/* styling the text in the ad notice */
+.videoplayerModule .adnotice {
+  font-size: 0.9em;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: arial, helvetica, sans-serif;
+  color: #646464;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  display: block;
+  width: 100%;
+  height: 24px;
+  margin: 0;
+  line-height: 24px;
+  text-align: center;
+  background: transparent;
+  overflow: hidden;
+}
+
+/* emphasis style for second part of ad notice */
+.videoplayerModule .adnotice em {
+  color: #fff;
+  font-style: normal;
+}
+
+/* Add a background under the ad notice text for readability. 
+   The ad must still be visible so make the background 90% transparent.  
+   Used a div for this instead of using a background value with rgba since rgba isn't supported in legacy browsers  
+*/
+.videoplayerModule .underadnotice {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  display: block;
+  width: 100%;
+  height: 24px;
+  background-color: #2d2d2d;
+  filter: alpha(opacity=90);
+  -moz-opacity:0.9;
+  -khtml-opacity: 0.9;
+  opacity: 0.9;
+}
+
+.videoplayerModule .spinner {
+  height: 176px;
+  width: 312px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  line-height: 176px;
+}
+
+.videoplayerModule .spinner span {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAkRJREFUeNrMmSF0wjAQQNs8XH3xqAnQgJlBb9NgN+yGmWF66L7ZbXbovWk0Q+Px1Fezy3tJ3y2k7SVNWu69W2HQy+/l7pIc4el0Ci5ZOvxPGIb5P+oCg60ZXDLQA+gRNLW1xVk6Hh56qrznsL9IzR6YUzr24E/Jx9ybX6AbqgdDS44enz4wkBkCYtAEdO8ScATaBx2DxqBLMLC3BJSyFh61isFYwPQFXOApXmPhzeIsRjIAHSIvNSETcU2KADnUrbhGLZW7CUqgf8JEvcpahMPTPTiLafT6DvTBwGBRkshBbEKFe/G+LIufQa+Jxm50NRPXVJT9cwPQRNZJbp/JF2KwKw9Tx1ePR4NVZKbGoHzykcfM5TH+SoSMcVljylT4loS4eWgNkHvy3QhQbBZiQplJdQmhKjEmq7wYyXCTHuwSDG9BPxx5ckv4ThcD9gg37EC/QZ/EVNWRHXHHlAOarCIHXEw9SqQmiWmwNyKs6QFNncDQtFXJ0OHgQ2Io5YBHwg1jh4AUW0cMmBKmOXZUzClLaiZrJVMKaJXMa+4bI2GDUswDG0D+5IsagAvihqQQkLqQvxh6MhL3UEIkLQIMyo6AGsg34oAm3z1jOOssgHxabNO3muXLzZZfA8jPFKuWivMSdxvyLb8ie3Hib1rWulYIK4mDTYNwm6L4Z5TTVQNwha0PXQzqTllTj9Na2jyiAMrEWQTuTn309hsREPdQZjVAzRuYhoC4+EqtWlGsW8B1ANX1uSvOEBGCctJEDy/9Z4g/AQYA097O7iV1tYAAAAAASUVORK5CYII=);
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  -moz-animation: videoplayerLoaderSpin 1s infinite linear;
+  -webkit-animation: videoplayerLoaderSpin 1s infinite linear;
+  animation: videoplayerLoaderSpin 1s infinite linear;
+}
+
+@-moz-keyframes videoplayerLoaderSpin {
+  from {
+    -moz-transform:rotate(0deg);
+  }
+  to {
+    -moz-transform:rotate(360deg);
+  }
+}
+
+@-webkit-keyframes videoplayerLoaderSpin {
+  from {
+    -webkit-transform:rotate(0deg);
+  }
+  to {
+    -webkit-transform:rotate(360deg);
+  }
+}
+
+@keyframes videoplayerLoaderSpin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+/* Extended Player */
+.extendedVideoPlayerModule {
+  margin-bottom: 40px;
+}
+
+.extendedVideoPlayerModule .extVidPlayerHeader {
+  padding: 0 0 7px 0;
+}
+
+.extendedVideoPlayerModule .extVidPlayerHeader .extVidPlayerMainHeaderLink {
+  padding: 4px 0 2px 0;
+  font-family: "nyt-karnak-display-130124",arial,helvetica,sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: left;
+  width: 48%;
+}
+.extendedVideoPlayerModule .extVidPlayerHeader .extVidPlayerMainHeaderLink a,
+.extendedVideoPlayerModule .extVidPlayerHeader .extVidPlayerMainHeaderLink a:hover {
+  text-decoration: none;
+}
+.extendedVideoPlayerModule .extVidPlayerHeader .extVidPlayerMainHeaderLink a:visited {
+  color: #000;
+}
+.extendedVideoPlayerModule .extVidPlayerHeader .extVidPlayerMainHeaderLink span {
+  color: #68635D;
+}
+
+.extendedVideoPlayerModule .extVidPlayerHeader .extVidPlayerSectionHeaderLink {
+  font-family: arial, "times new roman", times, serif;
+  font-weight: bold;
+  color: #004276;
+  float: right;
+  width: 48%;
+  text-align: right;
+  padding-top: 2px;
+}
+
+.extendedVideoPlayerModule .extendedVideoPocketPlayerContainer {
+  height: 212px;
+  margin: 0 auto 8px;
+}
+
+.extendedVideoPlayerModule .videoPlayButtonDiv p {
+  font-size: 11px;
+  left: 42px;
+  top: 15px;
+}
+
+.extendedVideoPlayerModule .extVidPlayerThumbsWrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.extendedVideoPlayerModule .extVidPlayerNav {
+  margin-top:  -8px;
+}
+
+.extendedVideoPlayerModule .extVidPlayerNavContent {
+  background: #fff;
+  display: none;
+  width: 54px;
+  float: right;
+}
+
+.extendedVideoPlayerModule .extVidPlayerNav a {
+  display: block;
+  float: left;
+  width: 22px;
+  text-indent: -99999px;
+}
+
+.extendedVideoPlayerModule .extVidPlayerNav .previousVideo,
+.extendedVideoPlayerModule .extVidPlayerNav .previousVideoInactive {
+  background: url(/images/video/arrow-left-15x14-232020.png) center no-repeat;
+  margin-right: 6px;
+}
+
+.extendedVideoPlayerModule .extVidPlayerNav .previousVideoInactive {
+  background: url(/images/video/arrow-left-inactive-15x14-C0C0C0.png) center no-repeat;
+}
+
+.extendedVideoPlayerModule .extVidPlayerNav .nextVideo {
+  background: url(/images/video/arrow-right-15x14-232020.png) center no-repeat;
+}
+
+.extendedVideoPlayerModule .extVidPlayerNav .nextVideoInactive {
+  background: url(/images/video/arrow-right-inactive-15x14-C0C0C0.png) center no-repeat;
+}
+
+.extendedVideoPlayerModule .extVidPlayerNav .previousVideoInactive,
+.extendedVideoPlayerModule .extVidPlayerNav .nextVideoInactive {
+  cursor: default;
+}
+
+.extendedVideoPlayerModule .extVidPlayerThumbsContainer {
+  border-top: 1px solid #e2e2e2;
+  position: relative;
+}
+
+.extendedVideoPlayerModule .extVidPlayerThumbsContainerShadow {
+  display: none;
+  background: url(/images/video/filmstrip-right-boundry-31x129-shadow.png) 2px -13px no-repeat;
+  height: 120px;
+  width: 14px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  z-index: 1;
+}
+
+.extendedVideoPlayerModule .thumbsShadow .extVidPlayerThumbsContainerShadow {
+  display: block;
+}
+
+.extendedVideoPlayerModule .videoThumbs {
+  width: 9999px;
+  padding-top: 16px;
+}
+
+.extendedVideoPlayerModule .videoThumbs li {
+  list-style-type: none;
+  font-family: arial, georgia,"times new roman",times,serif;
+  font-size: 11px;
+  cursor: pointer;
+  display: inline;
+  float: left;
+  width: 79px;
+  margin: 0 6px 0 0;
+  padding: 0;
+}
+
+.extendedVideoPlayerModule .videoThumbs .shortDescription {
+  color: #004276;
+  padding: 0 2px;
+  line-height: 13px;
+}
+
+.extendedVideoPlayerModule .videoThumbs li img {
+  border: 2px solid #fff;
+}
+
+.extendedVideoPlayerModule .videoThumbs .thumbSelected,
+.extendedVideoPlayerModule .videoThumbs li:hover {
+  filter: alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+
+.extendedVideoPlayerModule .videoDetails {
+  font-size: 13px;
+  height: 120px;
+  padding-top: 12px;
+  margin-top: -10px;
+}
+
+.extendedVideoPlayerModule .videoDetails .kicker {
+  font-size: 0.8em;
+  margin-bottom: 1px;
+}
+
+.extendedVideoPlayerModule .videoDetails .shortDescription {
+  font-size: 18px;
+  line-height: 20px;
+  color: #004276;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.extendedVideoPlayerModule .videoDetails .longDescription {
+  font-size: 13px;
+}
+
+/* Override share icon layout */
+.extendedVideoPlayerModule .videoShare span {
+  width: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  text-indent: -99999px;
+}
+
+.extendedVideoPlayerModule .videoShare .shareToolsItem {
+    float: right;
+    padding: 0 4px;
+}
+
+.extendedVideoPlayerModule .videoShare .shareToolsItem.firstItem {
+  padding: 0 0 0 4px;
+}
+
+.extendedVideoPlayerModule .videoShare .shareToolsItem.lastItem {
+  padding: 0 4px 0 0;
+}
+
+.extendedVideoPlayerModule .shareToolsThemeClassic .shareToolsItemShowall a, 
+.extendedVideoPlayerModule .shareToolsThemeClassic .shareToolsItemShowall span {
+  background: url(/images/video/share-all-static.gif) 0 1px;
+}
+
+/* style based on the column that the video is rendered */
+.aColumn .extendedVideoPlayerModule .videoDetails,
+.aColumn .extendedVideoPlayerModule .extVidPlayerThumbsContainer {
+  margin: 0 5px;
+}

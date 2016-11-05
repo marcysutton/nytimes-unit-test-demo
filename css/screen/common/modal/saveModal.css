@@ -1,0 +1,71 @@
+/* $Id: nytModal.css 64263 2011-08-16 15:43:23Z reed.emmons $
+/css/0.1/screen/common/modal/firstSave.css
+(c)2006 - 2010 The New York Times Company */
+
+.xpsModal {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.nytModalContainer .xpsModal .inset {
+  margin: 10px;
+}
+
+.xpsModal .nytModalContent .inset {
+  margin: 10px 30px 30px;
+}
+
+.xpsModal .modalTitle {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.xpsModal .inset .singleRule {
+  border-top: 0;
+}
+
+.xpsModal .modalBody {
+  margin-top: 10px;
+  width: 90%;
+}
+
+.xpsModal .modalBody span {
+  color: #004276;
+}
+
+.xpsModal .modalFooter {
+  height: 30px;
+  margin: 20px auto 0;
+}
+
+.firstSaveModal .modalFooter {
+  background: url(/images/save/icons/save_first_message.png) top left no-repeat;
+  height: 180px;
+}
+
+.loginToSaveModal .modalFooter {
+  width: 50%;
+}
+
+.loginToSaveModal .modalFooter .modalButton {
+  cursor: pointer;
+  float: left;
+  font-size: 0.9em; /* 11px */
+  height: 22px;
+  padding-top: 7px;
+  text-align: center;
+  width: 120px;
+}
+
+.loginToSaveModal .modalFooter .register {
+  background-color: #004276;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.loginToSaveModal .modalFooter .login {
+  width: 65px;
+}
+

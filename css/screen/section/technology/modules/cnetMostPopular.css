@@ -1,0 +1,82 @@
+/*
+$Id: cnetMostPopular.css 86946 2012-01-19 20:56:17Z vikramraj_bhattraj $
+/css/0.1/screen/section/technology/modules/cnetMostPopular.css
+(c)2006 - 2009 The New York Times Company 
+*/
+
+#cnetMostPopWidget h4 {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.1em; /* 11px */
+  line-height: 36px;
+  margin: 3px 0 2px 0;
+  text-transform: uppercase;
+}
+
+#cnetMostPopWidget .tabs {
+  border-left: 1px solid #CCCCCC; 
+  float: left; 
+  overflow: visible; 
+}
+
+#cnetMostPopWidget .tabContent {
+  border: 1px solid #D5D5D5;
+  height: 1%;
+}
+
+#cnetMostPopWidget .topPicksList { 
+  float: left;
+  margin: 0 0 10px 3px;
+}
+
+#cnetMostPopWidget .topPicksList li {
+  background: none;
+  display: block;
+  float: left;
+  margin: 5px 8px 0;
+  padding: 0;
+  width: 90px;
+}
+
+#cnetMostPopWidget .topPicksList li.last { 
+  margin: 5px 0px 0 8px;
+}
+
+#cnetMostPopWidget .topPicksList img {
+  border: 1px solid #cccccc;
+  clear: right;
+  padding: 14px 6.5px;
+}
+
+#cnetMostPopWidget .topPicksList a.thumb {
+  clear: right;
+  display: block;	
+  margin-bottom: 5px;
+}
+
+#cnetMostPopWidget .refer {
+  clear: both;
+  font-weight: bold;
+  padding: 0 0 4px 8px;
+}
+
+#cnetLogoLink36 {
+  display: block;
+  height: 36px;
+  width: 66px;
+  background-image: url(/images/section/technology/cnet_36.png);
+}
+
+#cnetLogoLink36.moveRight {
+  float: right;
+}
+
+.cnetProductDetailsModuleHeader #cnetLogoLink40 {
+  display: block;
+  height: 40px;
+  width: 74px;
+  background-image:url(/images/section/technology/cnet_40.png);
+}
+
+#cnetMostPopWidget .topPicksList li {
+  margin:5px 4px 0;
+}

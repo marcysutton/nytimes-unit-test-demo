@@ -1,0 +1,40 @@
+/* 
+$Id: scuttlebot.css 98193 2012-04-30 08:17:18Z padmini_c01 $
+/css/0.1/screen/common/modules/scuttlebot.css
+(c)2006 - 2008 The New York Times Company */
+ 
+.scuttlebot a {
+font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.scuttlebot .kicker {
+color: #808285;
+font-size: 0.833em; /* 10px */
+line-height: 1.2em; /* 12px */
+margin-left: 2px;
+}
+ 
+.scuttlebot .summary {
+margin-top: 2px;
+}
+ 
+.scuttlebot .subHeader {
+font-size: 1em; /* 10px */
+line-height: 1.2em; /* 12px */
+margin: 1px 0 2px 0;
+}
+ 
+.scuttlebot .subHeader,
+.scuttlebot .byline {
+color: #666;
+}
+ 
+.scuttlebot .byline {
+font-size: 0.916em; /* 11px */
+font-family: georgia,"times new roman",times,serif;
+line-height: 1.2727em; /* 14px */
+}
+ 
+.scuttlebot .runaroundRight {
+margin-top: -7px;
+}

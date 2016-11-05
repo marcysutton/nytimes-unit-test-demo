@@ -1,0 +1,117 @@
+/* $Id: poster.css 87287 2012-01-24 22:39:33Z david $
+/css/0.1/screen/common/modules/video/poster.css
+(c)2006 - 2012 The New York Times Company */
+
+/*container*/
+.videoOverlayDiv {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	background: #272727;
+	z-index: 20;
+}
+
+/*playbuttons*/
+.videoPlayButtonDiv {
+	position: absolute;
+	overflow: hidden;
+	opacity: 0.7;
+	filter: Alpha(opacity=70);
+	border: 1px solid #fff;
+	background: #000;
+	border-radius: 4px;
+	z-index: 30;
+}
+
+.videoPlayButtonDiv.standardSize,
+.videoPlayButtonDiv.standardSize img {
+	width: 55px;
+	height: 50px;
+}
+
+.videoPlayButtonDiv.mediumSize,
+.videoPlayButtonDiv.mediumSize img {
+	width: 46px;
+	height: 42px;
+}
+
+.videoPlayButtonDiv.smallSize,
+.videoPlayButtonDiv.smallSize img {
+	width: 34px;
+	height: 31px;
+}
+
+.videoPlayButtonContracted {
+	margin-left: 0;
+	width: 55px;
+}
+
+.videoPlayButtonExpanded.standardSize {
+	margin-left: -47px;
+	width: 146px;
+}
+
+.videoPlayButtonExpanded.mediumSize {
+	margin-left: -37px;
+	width: 120px;
+}
+
+.videoPlayButtonExpanded.smallSize {
+	margin-left: -39px;
+	width: 100px;
+}
+
+.videoPlayButtonExpanded.standardSize.bottomleft,
+.videoPlayButtonExpanded.mediumSize.bottomleft,
+.videoPlayButtonExpanded.smallSize.bottomleft {
+	margin-left: 0;
+}
+
+.videoPlayButtonDiv p {
+	font-family: arial, helvetica, sans-serif;
+	position: absolute;
+	top: 18px;
+	margin: 0;
+	padding: 0;
+	left: 49px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #fff;
+	display: none;
+	line-height: normal;
+}
+
+.videoPlayButtonDiv.mediumSize p {
+	font-size: 11px;
+	left: 42px;
+	top: 15px;
+}
+
+.videoPlayButtonDiv.smallSize p {
+	font-size: 10px;
+	left: 30px;
+	top: 10px;
+}
+
+.videoPlayButtonContracted p {
+	display: none !important;
+}
+
+/*hotspot*/
+.videoHotspotDiv {
+	display: block;
+	position: absolute;
+	z-index: 40; /*top*/
+	background: #000;
+	zoom: 1;
+	opacity: 0.4;
+	filter: Alpha(opacity=40);
+}
+
+.videoHotspotDiv img {
+	position: absolute;
+}
+
+.videoHotspotDiv.active {
+	cursor: pointer;
+}

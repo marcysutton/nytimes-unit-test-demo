@@ -1,0 +1,261 @@
+/*
+$Id: subNavigation.css 30931 2010-02-07 20:49:40Z vishal $
+/css/0.1/screen/section/technology/personaltech/subNavigation.css
+(c)2006 - 2009 The New York Times Company 
+*/
+
+.navigation ul li.selected {
+  border-bottom: 1px solid #F4F4F4;  
+}
+
+.subNavigation .personalTech {
+  width: 120px;
+}
+
+.subNavigation {
+  background-color: #F4F4F4;
+  padding: 10px 0 6px 6px;
+  min-height: 39px;
+  height: auto !important;
+  height: 39px;
+  border-width: 0 0 1px !important;
+}
+
+.subnavigation ul {
+  line-height: 2em; /* 20px */
+}
+
+.subNavigation .three .columnGroup {
+  margin: 0 8px 0 8px;
+}
+
+.subNavigation .four .columnGroup {
+  margin-left: 4px;
+}
+
+.subNavigation .subNavigation div.four ul {
+  width: 255px;
+}
+
+.subNavigation div.four li {
+  padding: 0 5px 0 0;
+  border-left: none;
+}
+
+.subNavigation .inlineSearchControl .text {
+  width: 187px;
+}
+
+.subNavigation div.four li.last {
+  padding: 0;
+}
+
+.subNavigation .firstColumn,
+.subNavigation .secondColumn,
+.subNavigation .thirdColumn,
+.subNavigation .fourthColumn,
+.subNavigation .lastColumn {
+  float: left;
+  padding-left: 10px;
+  height: 62px;
+}
+
+.subNavigation .expandedElements {
+  border: 1px solid #B2B2B2;
+  margin: 45px 1px 2px 1px;
+  padding: 8px 0px 10px 11px;
+  background: #FFFFFF;
+  width: 940px;
+}
+
+.subNavigation .expandedElements {
+  *margin: 6px 9px 2px 2px;
+  *bottom: 1px;
+  *position: relative;
+  z-index: 1;
+}
+
+.subNavigation .expandedElements h6,
+.subNavigation .expandedElements li,
+.subNavigation .selectedElement {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subNavigation .expandedElements h6 {
+  font-size: 1em; /* 10px */
+  color: #000000;
+  text-transform: capitalize;
+  margin: 0;
+  line-height: 1.2em; /* 12px */
+}
+
+.subNavigation .expandedElements ul li {
+  background: transparent url(/images/misc/bullet4x4.gif) no-repeat scroll left 0.45em;
+  font-size: 1.1em; /* 11px */
+  border-left: none;
+  line-height: 1.25em; /* 13.75px */
+  color: #004276;
+  margin: 3px 0 0 0;
+  padding: 0 0 0 10px;
+  float: none;  
+}
+
+.subNavigation .expandedElements ul li a {
+  font-weight: normal;
+}
+
+.subNavigation .column,
+.subNavigation .secondColumn,
+.subNavigation .thirdColumn,
+.subNavigation .fourthColumn {
+  border-left: 1px solid #CCCCCC;
+  border-right: none;
+}
+
+.subNavigation .first,
+.subNavigation .firstColumn {
+  border: none;
+}
+
+.subNavigation .firstColumn {
+  width: 120px;
+  padding-left: 0;
+}
+
+.subNavigation .secondColumn {
+  width: 198px;
+}
+
+.subNavigation .thirdColumn {
+  width: 245px;  
+}
+
+.subNavigation .fourthColumn {
+  width: 190px;  
+}
+
+.subNavigation .lastColumn {
+  width: 130px;  
+}
+
+.subNavigation .expandedElements ul.refer {
+  margin-top:0;  
+}
+
+.subNavigation .expandedElements ul.firstList,
+.subNavigation .expandedElements ul.lastList {  
+  float: left;
+}
+
+.subNavigation .expandedElements .secondColumn ul.firstList {
+  width: 107px;
+}
+
+.subNavigation .expandedElements .secondColumn ul.lastList {
+  width: 91px;
+  padding-left: 0;
+}
+
+.subNavigation .expandedElements .thirdColumn ul.firstList {
+  width: 150px;
+}
+
+.subNavigation .expandedElements .thirdColumn ul.lastList {
+  width: 95px;
+  padding-left: 0;
+}
+
+.subNavigation .expandedElements .fourthColumn ul.firstList {
+  width: 122px;
+}
+
+.subNavigation .expandedElements .fourthColumn ul.lastList {
+  width: 68px;
+  padding-left: 0;
+}
+
+.subNavigation ul li#suppressedTechProducts{
+  padding-right: 0 !important;
+  font-size: 1em; /* 10px */
+  margin-right: 0;
+  width: 92px;
+}
+
+#expandedTechProducts {
+  width: 101px;
+  margin: 0;
+  border: medium none;
+}
+
+#expandedTechProducts .columnGroup {
+  margin: 0 !important;  
+}
+
+.subNavigation .selectedElement {
+  border: 1px solid #B2B2B2;
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 1em; /* 10px */
+  float: left;
+  font-weight: bold;
+  padding: 10px 4px 9px 2px;
+  margin: 10px 0 -10px;
+  background: #FFFFFF;
+  height: 15px;
+  position: relative;
+  z-index: 100;
+  width: 94px;
+}
+
+.subNavigation .selectedElement {
+  *margin-top: 8px !important;
+}
+
+.subNavigation a.toggleClose {
+  background: transparent url(/images/global/icons/collapse_closed.gif) no-repeat scroll 0 50%;
+  padding-left: 0;
+}
+
+.subNavigation a.toggleOpen {
+  background:transparent url(/images/global/icons/collapse_open.gif) no-repeat scroll 2px 50%;
+  padding-left: 6px;
+}
+
+#expandAll,
+#suppressAll {
+  padding-left: 9px;
+  text-transform: uppercase;
+}
+
+.subNavigation .three {
+  margin-left: 4px;
+}
+
+#expanded .columnGroup {
+  margin-left: 0;
+}
+
+.subNavigation .pogueBlog {
+  padding-left: 1px;
+}
+
+.subNavigation .gadgetWiseBlog {
+  padding-left: 4px;
+}
+
+.subNavigation .expandedElements { 
+  margin-right: 0 !important;
+}
+
+div#shell div.tabContent {
+  *padding-bottom: 3px !important;
+}
+
+/* Required for PersonalTech Articles. Do not knock these styles off*/
+#shell #page .subNavigation a.suppressed {
+  background: transparent url(/images/global/icons/collapse_closed.gif) no-repeat scroll 0 50%;
+}
+
+#shell #page .subNavigation a.expanded {
+  background:transparent url(/images/global/icons/collapse_open.gif) no-repeat scroll 3px 50%;
+  padding-left: 5px;
+}

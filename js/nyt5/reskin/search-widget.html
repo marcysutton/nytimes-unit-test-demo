@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Search Widget</title>
+<link rel="stylesheet" type="text/css" href="https://static01.nyt.com/css/0.1/screen/build/sectionfront/technology/styles.css" />
+</head>
+<body>
+<div id="shell" class="NYT5Style">
+	<div id="page" class="tabContent active">
+		<div id="masthead" class="wrap">
+			<div id="searchWidget">
+			    <div class="inlineSearchControl">
+			        <form enctype="application/x-www-form-urlencoded" action="http://query.nytimes.com/search/sitesearch" method="get" name="searchForm" id="searchForm">
+			            <input type="hidden" value="full" name="date_select"/>
+			            <label for="searchQuery">Search All NYTimes.com</label>
+			            <input type="text" class="text" value="" size="" name="query" id="searchQuery"/>
+			            <input type="hidden" id="searchAll" name="type" value="nyt"/>
+			            <input type="image" id="searchSubmit" title="Search" alt="Search" width="22" height="19" src="https://static01.nyt.com/images/global/buttons/go.gif"/>
+			        </form>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="/base/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/base/js/test-common.js"></script>
+<script src="/base/js/nyt5/reskin/masthead.js"></script>
+</body>
+</html>

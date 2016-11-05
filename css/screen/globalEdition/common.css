@@ -1,0 +1,79 @@
+/*$Id: common.css 132392 2013-09-30 13:48:37Z madhuri_k $
+/css/0.1/screen/globalEdition/common.css
+(c)2006 - 2009 The New York Times Company */
+
+/* Begin Masthead */
+
+#masthead .globalEditionCobrand { /* overrides #branding when cobranded logo is used */
+  width: 275px;
+  margin-bottom: 3px;
+}
+
+#nytIhtMastheadLogo {
+  display: block;
+}
+
+#globalEditionMastheadLogo {
+  display: block;
+  margin: 0 auto;
+}
+
+#nytIhtMastheadLogo,
+#globalEditionMastheadLogo {
+  line-height: 0; /* make span height of contained img */
+}
+
+#withReutersMastheadLogo {
+  margin-left: 5px;
+}
+
+#masthead .globalEditionPageHeader {
+  margin-left: 280px;
+}
+
+#nytIhtMastheadLogo img {
+  width: 175px;
+}
+
+#masthead .globalEditionPageHeader,
+#masthead div.globalEditionPageHeader h2 {
+  width: 342px;
+  top: 11px;
+}
+
+#branding,
+#withReutersMastheadLogo {
+  display: inline;
+}
+
+/* new articles until macro is updated */
+
+
+#masthead div.globalEditionPageHeader h2 {
+  margin-left: 0;
+}
+
+/* pre 0.1 css framework (articles) */
+
+#branding {
+  float: left;
+  width: 152px;
+  margin-top: 4px;
+}
+
+#branding a,
+#branding a img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#masthead div.globalEditionPageHeader h1 {
+  font-size: 24px !important;
+  line-height: 32px !important; 
+  width: 342px !important;
+  top: 14px !important;
+  left: 288px !important;
+}
+
+/* End Masthead */

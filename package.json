@@ -1,0 +1,26 @@
+{
+  "name": "NYT Technology Unit Test Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt karma"
+  },
+  "author": "Marcy Sutton <marcy.sutton@deque.com> (http://www.deque.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-karma": "^2.0.0",
+    "jasmine": "^2.5.2",
+    "jasmine-jquery": "^2.1.1",
+    "jquery": "^3.1.1",
+    "karma": "^1.3.0",
+    "karma-fixture": "^0.2.6",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2"
+  },
+  "dependencies": {}
+}
